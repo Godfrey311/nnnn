@@ -1,0 +1,109 @@
+nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+  }
+  
+  a {
+    text-decoration: none;
+    color: lightcoral;
+    padding: 15px;
+    float: left;
+  }
+  
+  a:hover {
+    background-color: burlywood;
+  }
+  
+  body {
+    margin-top: 10%;
+  }
+  
+  .main-header {
+    background-color: lightgoldenrodyellow;
+    padding-left: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+  }
+  
+  .header-info {
+    text-align: left;
+    color: rgb(219, 84, 75);
+    padding: 0px;
+    margin: 14px;
+    position: absolute;
+    left: 0px;
+  }
+  
+  * {
+    color: #87c641;
+    border-color: #87c641;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  h1 {
+    font-size: x-large;
+    width: full;
+    height: auto;
+  }
+  
+  body {
+    background-color: #fffff7;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .fancy {
+    text-shadow: 2px 2px 3px green;
+  }
+  
+  img {
+    width: 15%;
+    aspect-ratio: 3/2;
+    border-radius: 40px;
+    border: #87c641 5px solid;
+    margin: 10px;
+  }
+  
+  h2 {
+    font-family: "Courier New", Courier, monospace;
+    font-style: italic;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+  }
+  .dropdown-content {
+    display: none;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    top: 100%;
+    background-color: antiquewhite;
+  }
+  .dropdown-item:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+  }
+  a.dropdown-item {
+    min-width: 160px;
+    text-align: left;
+  }
+  
+  li.dropdown-item:hover a.dropdown-item {
+    text-align: left;
+    color: gainsboro;
+  }
